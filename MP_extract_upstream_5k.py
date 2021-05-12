@@ -22,7 +22,7 @@ import gzip
 
 
 def get_seq_from_genome_location(file, genomefile):
-    """"从polyA_summmary.csv文件中获得位置信息，并确定提取序列的位置"""
+    """"从NLR_Annotator输出文件中获得位置信息，并确定提取序列的位置"""
     with open(file, 'r') as summary:
         print('The present is {0} ... '.format(species))
         print('nlr_txt is read\n' + '---------------'*4 + '---{0}---'.format(n) + '  ^~.~^  ---------->')
