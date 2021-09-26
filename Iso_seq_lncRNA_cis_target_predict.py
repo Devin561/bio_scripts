@@ -65,9 +65,7 @@ def option_parameters(argv):
                 os.system('figlet Love Python3')
             except:
                 pass
-            print('\n*--------------------------------↓--------------------------------------------↓\n')
             print('[usage] python3 Iso_seq_lncRNA_cis_target_predict.py -g <annotation.gtf> -l <lncRNA_id.list>')
-            print('\n*--------------------------------↑--------------------------------------------↑\n')
             sys.exit(2)
         elif opt_name in ('-g', '--gff'):
             gff_file = opt_value
